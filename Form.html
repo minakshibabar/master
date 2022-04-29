@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student form</title>
+    </head>
+    <body>
+        <center>
+            <h1 align="center">Student Registration Form</h1>
+            <marquee height="50px" width="200px" direction="left">
+                <h3>Toll Free Number<mark>1800009898</mark></h3>
+            </marquee>
+                <fieldset style="width:300px">
+                    <form action="demo.html" method="post">
+                        <table align="center">
+                        <tr>
+                            <th>Name:</th>
+                            <td><input type="text" name="name" value="name"></td>
+                        </tr>
+                        <tr>
+                            <th>City:</th>
+                            <td><input type="text" name="city" value="city"></td>
+                             </tr>
+
+                            <tr>
+                                <th>Email:</th>
+                                <td><input type="email" name="email" value="Mail"></td>
+                            </tr>
+                            <tr>
+                                <th>Mobile No</th>
+                                <td><input type="number" name="mobile" value="Mobile"></td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <td><textarea name="address" rows="3" cols="21"></textarea></td>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <td><input type="hidden" id="demo" name="age" value="30" ></td>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <td colspan="2" align="center">
+                                            <input type="submit" value="Submit">
+                                            <input type="reset" value="Clear">
+                                        </td>
+                                    </th>
+                                    </tr>
+                                    <h2>The progress Element</h2>
+                                    <label for="file">Download Element</label>
+                                    <progress id="file" value="70" max="100">22%</progress>
+                            </table>
+                            <lable for="vol"> volume(volume between 0 and 50)</lable>
+                            <input type="range" id="vol" min="0" max="50">
+                            <input type="submit" value="submit">
+                    </form>
+                </fieldset>
+                <lable for="favcolor"> Select your favorite color</lable>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                <input type="submit" value="submit">   
+                <p align="center">The hidden filed is not show to user,but data is send when form submitted </p>        
+            </center>
+    </body>
+    </html>
